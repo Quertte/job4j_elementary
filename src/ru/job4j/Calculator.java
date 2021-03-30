@@ -18,5 +18,14 @@ public class Calculator {
         System.out.println("6 / 2 = " + sixDivTwo);
         System.out.println("5 - 2 = " + fiveMinusTwo);
         System.out.println("4 * 2 = " + fourTimeTwo);
+
+        Calculator.plus(100,500);
+        Calculator.plus(4,2);
+        Calculator.plus(3,5);
+    }
+
+    public static void plus(int first, int second) {
+        int result = first + second;
+        System.out.println(result);
     }
 }
