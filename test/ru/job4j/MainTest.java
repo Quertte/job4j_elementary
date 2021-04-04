@@ -17,7 +17,7 @@ public class MainTest {
     }
 
     @Test
-    public void checkOutHelloWorld(){
+    public void checkOutHelloWorld() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         Main.main(null);
